@@ -1,0 +1,21 @@
+{
+    "name": "telegram_for_lox",
+    "version": "1.0.0",
+    "description": "for kastastin",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-dev": "nodemon bot.js"
+    },
+    "keywords": [
+        "node",
+        "telegram"
+    ],
+    "author": "g.bogdana",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.6",
+        "telegraf": "^3.38.0"
+    }
+}

@@ -19,6 +19,10 @@ const init = async(bot, config) => {
         ctx.reply('dev...');
     });
 
+    bot.hears('test', ctx => {
+        ctx.reply(new Date());
+    });
+
     return bot;
 }
 
